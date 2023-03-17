@@ -1,0 +1,23 @@
+{
+  "name": "service-tournament-manager",
+  "version": "1.0.0",
+  "description": "a service to handle tournament manager for T.E.A.M",
+  "main": "app.js",
+  "author": "haidityara",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "brackets-json-db": "^1.0.2",
+    "brackets-manager": "^1.5.5",
+    "brackets-storage-calls": "^1.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-kun": "^1.0.24",
+    "joi": "^17.8.4",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.2.0",
+    "node-json-db": "^2.1.4",
+    "sequelize": "^6.29.3"
+  }
+}

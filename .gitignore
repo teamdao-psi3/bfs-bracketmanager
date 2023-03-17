@@ -1,0 +1,13 @@
+# ignore node modules
+node_modules
+
+# ignore .env file
+.env
+
+#ignore .idea folder
+.idea
+
+
+#ignore yarn.lock
+yarn.lock
+yarn-error.log
