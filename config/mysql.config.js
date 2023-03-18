@@ -1,8 +1,11 @@
+require('dotenv').config()
+const env = process.env
+
 module.exports = {
-    HOST: "localhost",
-    USER: "root",
-    PASS: "",
-    DB: "bfs_bracket",
+    HOST: env.MYSQL_HOST || "localhost",
+    USER: env.MYSQL_USER || "root",
+    PASS: env.MYSQL_PASSWORD || "",
+    DB: env.MYSQL_DB_NAME || "tournament",
     dialect: "mysql",
     pool: {
         max: 5,

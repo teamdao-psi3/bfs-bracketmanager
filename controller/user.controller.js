@@ -11,15 +11,17 @@ const createUser = async (req, res) => {
     password,
   })
 
+  console.log('user: ', user)
+
   // check for errors
   if (user) {
-    res.status(200).send({
+    return res.status(200).send({
       message: 'User created',
       user,
     })
   }
 
-  res.status(500).send({
+  return res.status(500).send({
     message: 'Error creating user',
   })
 
